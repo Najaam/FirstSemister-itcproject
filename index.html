@@ -1,61 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Tourist Guide Pakistan</title>
 </head>
+
 <body style="margin: 0; padding: 0;">
   <!-- header -->
   <header style="background-color: #313131;   animation: slideDown 1s ease-in-out;">
-    <nav style=" padding: 5px; text-align: center; animation: fadeIn 1s ease-in-out; display: flex; flex-direction: row; align-items: center; justify-content: flex-end;">
+    <nav
+      style=" padding: 1vh; text-align: center; animation: fadeIn 1s ease-in-out; display: flex; flex-direction: row; align-items: center; justify-content: flex-end;">
 
-    <img src="images/logo.png" alt="loading" style="height: 8vh; width: 10vh; margin-right: 35%;" >
- 
-    <!-- Home -->
-      <a href="index.html" style="color: #ff9800; text-decoration: none; margin: 0 20px; transition: color 0.3s; font-size: larger; animation: fadeIn 2.5s ease-in-out;" class="active" >Home</a>
+      <img src="images/logo.png" alt="loading" style="height: 8vh; width: 10vh; padding-right: 60vh;">
+
+      <!-- Home -->
+      <a href="index.html"
+        style="color: #ff9800; text-decoration: none; margin: 0 3vh; transition: color 0.3s,letter-spacing 0.3s; font-size: larger; animation: fadeIn 2s ease-in-out;"
+        onmouseover="this.style.color='#fff';this.style.letterSpacing = '0.5vh';"
+        onmouseout="this.style.color='#ff9800';this.style.letterSpacing = 'normal';" class="active">Home</a>
       <!-- About -->
-      <a href="aboutus.html" style="color: #fff; text-decoration: none; margin: 0 20px; transition: color 0.3s; font-size: larger; animation: fadeIn 2.5s ease-in-out;" onmouseover="this.style.color='#ff9800';" onmouseout="this.style.color='#fff';">About</a>
+      <a href="aboutus.html"
+        style="color: #fff; text-decoration: none; margin: 0 3vh; transition: color 0.3s,letter-spacing 0.3s; font-size: larger; animation: fadeIn 2s ease-in-out;"
+        onmouseover="this.style.color='#ff9800'; this.style.animation = 'hover ease-in-out';this.style.letterSpacing = '0.5vh';"
+        onmouseout="this.style.color='#fff';this.style.letterSpacing = 'normal'; ">About</a>
       <!-- Gallary -->
-      <a href="gallery.html" style="color: #fff; text-decoration: none; margin: 0 20px; transition: color 0.3s; font-size: larger; animation: fadeIn 2.5s ease-in-out;" onmouseover="this.style.color='#ff9800';" onmouseout="this.style.color='#fff';">Gallery</a>
+      <a href="gallery.html" style="color: #fff; text-decoration: none; margin: 0 
+        3vh; transition: color 0.3s,letter-spacing 0.3s; font-size: larger; animation: fadeIn 2s ease-in-out;"
+        onmouseover="this.style.color='#ff9800';this.style.letterSpacing = '0.5vh';"
+        onmouseout="this.style.color='#fff';this.style.letterSpacing = 'normal'; ">Gallery</a>
       <!-- Contact -->
-      <a href="contactus.html" style="color: #fff; text-decoration: none; margin: 0 20px; transition: color 0.3s; font-size: larger; animation: fadeIn 2.5s ease-in-out;" onmouseover="this.style.color='#ff9800';" onmouseout="this.style.color='#fff';">Contact</a>
+      <a href="contactus.html"
+        style="color: #fff; text-decoration: none; margin: 0 3vh; transition: color 0.3s,letter-spacing 0.3s; font-size: larger; animation: fadeIn 2s ease-in-out;"
+        onmouseover="this.style.color='#ff9800'; this.style.letterSpacing = '0.5vh';"
+        onmouseout="this.style.color='#fff';this.style.letterSpacing = 'normal'; ">Contact</a>
       <!-- Search -->
-      <div style="display: flex; align-items: center; margin-left: 25%;">
-        <input type="text" placeholder="Search" style="padding: 5px; margin-right: 10px; border: none; border-radius: 5px;">
-        <button style="padding: 5px 10px; background-color: #ff9800; color: #fff; border: none; border-radius: 5px;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#ff9800';" onmouseout="this.style.backgroundColor='#ff9800'; this.style.color='#fff';">Search</button>
+      <div style="display: flex; align-items: center; margin-left: 50vh;">
+        <input type="text" placeholder="Search"
+          style="padding: 1vh; margin-right: 2vh; border: none; border-radius: 1vh;">
+        <button style="padding: 1vh 2vh; background-color: #ff9800; color: #fff; border: none; border-radius: 5vh;"
+          onmouseover="this.style.backgroundColor='#fff'; this.style.color='#ff9800';"
+          onmouseout="this.style.backgroundColor='#ff9800'; this.style.color='#fff';">Search</button>
       </div>
     </nav>
   </header>
- <!--  page content -->
+  <!--  page content -->
   <main>
-       <h2>Welcome to my website!</h2>
-   
+    <h2>Welcome to my website!</h2>
+
   </main>
-<!-- Footer -->
-  <footer style="background-color: #313131; color: #fff; padding: 10px; text-align: center; animation: fadeIn 1s ease-in-out;">
+  <!-- Footer -->
+  <footer
+    style="background-color: #313131; color: #fff; padding: 1vh; text-align: center; animation: fadeIn 1s ease-in-out;">
     <p>Copyrigth reserved by najm</p>
   </footer>
   <style>
     /* Keyframes for header animation */
     @keyframes slideDown {
-      0% {
+      from {
         transform: translateY(-100%);
         opacity: 0;
       }
-      100% {
+
+      to {
         transform: translateY(0);
         opacity: 1;
       }
     }
+
     /* Keyframes for footer animation */
     @keyframes fadeIn {
-      0% {
+      from {
         opacity: 0;
       }
-      100% {
+
+      to {
         opacity: 1;
       }
     }
-
   </style>
 </body>
+
 </html>
