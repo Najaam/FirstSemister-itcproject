@@ -39,9 +39,11 @@
       <!-- Search -->
       <div style="display: flex; align-items: center; margin-left: 50vh;">
         <input type="text" placeholder="Search"
-          style="padding: 1vh; margin-right: 1vh; border: none; border-radius: 1vh;">
-        <button style="padding: 1vh 2vh; background-color: #ff9800; color: #fff; border: none; border-radius: 5vh;"
-          onmouseover="this.style.backgroundColor='#fff'; this.style.color='#ff9800';"
+          style="padding: 1vh; margin-right: 2vh; border: none; border-radius: 1vh;">
+        <button
+          style="padding: 1vh 2vh; background-color: #ff9800; color: #fff; font-size: 1.5vh; text-decoration: none; border: none; border-radius: 2vh; transition: background-color 0.3s, transform 0.3s; cursor: pointer; animation: fadeIn 1s ease-in-out;"
+          onmouseover="this.style.backgroundColor='#fff'; this.style.color='#ff9800'; this.style.transform='scale(1.1)';"
+          onmouseout="this.style.backgroundColor='#ff9800'; this.style.color='#fff'; this.style.transform='scale(1)';"
           onmouseout="this.style.backgroundColor='#ff9800'; this.style.color='#fff';">Search</button>
       </div>
     </nav>
